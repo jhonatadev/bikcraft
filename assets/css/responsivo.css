@@ -41,7 +41,11 @@
 	} 
 	.header_menu ul li a:hover{
 		border-color: #fff;
-	} 
+	}
+
+	.header_menu ul li a.menu_ativo{
+	  border-color: #fff;
+	}	 
 
 	/* Introdução */
 	.introducao{
@@ -50,11 +54,14 @@
 		background: url('../img/bg-mobile.jpg') no-repeat center;
 		background-size: cover;
 	}
-
 	.introducao h1{
 	  font-size: 36px;
 	}
-
+	
+	/* Introdução Interna */
+	.introducao-interna{
+	  margin-top: 0px;
+	}	
 
 	/* Call */
 	.call{
@@ -65,5 +72,16 @@
 	.qualidade:after{
   	display: none;
 	}
+
+	/* Sobre */
+	.missao_sobre p{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0px;
+	}	
+	.missao_sobre ul li{
+		font-size: 14px;
+		line-height: 25px;
+	}	
 
 }
