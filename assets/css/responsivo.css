@@ -15,7 +15,28 @@
 	.footer_redes ul li a img{
 	  width: 26px;
 	  height: 26px;
-	}	
+	}
+
+	/* Produtos */
+	.produto_item h2{
+		top: -150px;
+		margin-bottom: -56px;
+	}
+	.produto_icone{
+		padding: 41px 0;
+	}
+	.produto_info p{
+		height: 122px;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 30px;
+	}
+
+	.produto_info ul li{
+		width: 181px;
+		height: 49px;
+	}				
+
 }
 
 /* Estilo para smartphone */
@@ -82,6 +103,37 @@
 	.missao_sobre ul li{
 		font-size: 14px;
 		line-height: 25px;
-	}	
+	}
+
+	/* Produtos */
+	.produto_item h2{
+		top: -100px;
+		margin-bottom: -68px;
+	}
+	.produto_icone{
+		padding: 41px 0;
+	}
+	.produto_info p{
+		height: auto;
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 30px;
+	}
+
+	.produto_info ul li{
+		width: 149px;
+		height: 49px;
+		font-size: 14px;
+		line-height: 20px;
+		padding-top: 14px;
+	}
+
+	.form{
+		padding-right: 0px;
+	}
+
+	.orcamento_dados ul{
+		padding-right: 0px;
+	}					
 
 }
